@@ -4,7 +4,7 @@
   <title><![CDATA[Softwaregravy]]></title>
   <link href="http://softwaregravy.github.io/atom.xml" rel="self"/>
   <link href="http://softwaregravy.github.io/"/>
-  <updated>2016-05-20T14:32:42-04:00</updated>
+  <updated>2016-05-20T16:34:17-04:00</updated>
   <id>http://softwaregravy.github.io/</id>
   <author>
     <name><![CDATA[John Hinnegan]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tickwork Powered by AWS]]></title>
+    <link href="http://softwaregravy.github.io/blog/2016/05/20/tickwork-powered-by-aws/"/>
+    <updated>2016-05-20T16:12:46-04:00</updated>
+    <id>http://softwaregravy.github.io/blog/2016/05/20/tickwork-powered-by-aws</id>
+    <content type="html"><![CDATA[<p><a href="http://softwaregravy.com/blog/2016/05/20/introducing-tickwork/">My previous post</a> introduced <a href="https://github.com/softwaregravy/tickwork">Tickwork</a> which performs scheduling in Ruby, but doesn&rsquo;t contain a clock.
+The intentionally missing component of the scheduling library means that something must regularly call the manager to drive the scheduling of events.</p>
+
+<p>AWS recently introduced <a href="https://aws.amazon.com/blogs/aws/new-cloudwatch-events-track-and-respond-to-changes-to-your-aws-resources/">Cloudwatch Events</a> &ndash; essentially a cron in the cloud that does nothing on it&rsquo;s own.
+We can use this to power Tickwork.</p>
+
+<p>The way we can do this is by having Cloudwatch Events push to <a href="https://aws.amazon.com/sns/">SNS</a>, which we&rsquo;ll then call out to our Rails app with an HTTP post.
+How much does this cost? $0. Cloudwatch Events are free (as far as I can tell), and we are comfortably in the free tier for SNS. (100,000 HTTP calls per month are free, then just $0.60/1 million after that. <a href="https://aws.amazon.com/sns/">source</a>)</p>
+
+<p>To make this easy, I&rsquo;ve created <a href="https://github.com/softwaregravy/aws_tickwork">AWS Tickwork</a>, an engine for Rails.
+The main part of AWS Tickwork is an SNS controller which makes receiving posts very easy.
+This controller simply calls Tickwork.  The engine also contains an optional migration to use ActiveRecord as the datastore required by Tickwork.</p>
+
+<p>A full app example using AWS Tickwork can be found in the <a href="https://github.com/softwaregravy/aws_tickwork/tree/master/spec/dummy">spec directory</a>.
+I&rsquo;m also using this engine successfully in another project &hellip; maybe a future post.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Introducing Tickwork]]></title>
