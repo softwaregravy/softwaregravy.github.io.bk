@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Interviewing | Softwaregravy]]></title>
+  <link href="http://softwaregravy.github.io/blog/categories/interviewing/atom.xml" rel="self"/>
+  <link href="http://softwaregravy.github.io/"/>
+  <updated>2016-06-16T15:44:52-04:00</updated>
+  <id>http://softwaregravy.github.io/</id>
+  <author>
+    <name><![CDATA[John Hinnegan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Interview Metrics]]></title>
+    <link href="http://softwaregravy.github.io/blog/2016/06/15/interview-metrics/"/>
+    <updated>2016-06-15T13:30:22-04:00</updated>
+    <id>http://softwaregravy.github.io/blog/2016/06/15/interview-metrics</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>

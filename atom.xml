@@ -4,7 +4,7 @@
   <title><![CDATA[Softwaregravy]]></title>
   <link href="http://softwaregravy.github.io/atom.xml" rel="self"/>
   <link href="http://softwaregravy.github.io/"/>
-  <updated>2016-06-14T15:50:31-04:00</updated>
+  <updated>2016-06-16T15:44:52-04:00</updated>
   <id>http://softwaregravy.github.io/</id>
   <author>
     <name><![CDATA[John Hinnegan]]></name>
@@ -12,6 +12,141 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[What to Interview For]]></title>
+    <link href="http://softwaregravy.github.io/blog/2016/06/16/what-to-interview-for/"/>
+    <updated>2016-06-16T13:10:32-04:00</updated>
+    <id>http://softwaregravy.github.io/blog/2016/06/16/what-to-interview-for</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been helping some startups with their interviewing and recruiting lately.
+I&rsquo;ve seen startups which have capable interviewers who lack bandwidth, which feel confident interviewing for some roles but not others, which have an illogical or inconsistent process, and some which have no real process at all.
+In this post, I will discuss the different types of interviews for technical candidates, and suggest who to interview for what.</p>
+
+<p>Caveat: I am describing what I consider typical interviews.
+With effort, some startups have successfully re-invented technical interviews like, for example, having the candidate work for the company for a week.
+(I remember reading about this company a while ago, but forget the name. Can anyone help with a source?)</p>
+
+<ul>
+<li><strong>Prescreen for Coding</strong> Becoming more and more common. Some sort of coding problem to be completed prior to speaking with anyone technical.</li>
+<li><strong>Coding and Algorithms</strong> The most basic kind of technical interview asks you to code a solution so some problem. Solutions usually require algorithms or data structures commonly taught in 2nd or 3rd year of undergrad CS programs.</li>
+<li><strong>Architecture</strong> Depending on the company&rsquo;s space, how do you build systems? As an example, in digital advertising I might focus on large scale systems, failure scenarios, and distributed counting problems. A games company might focus on graphics engines and AI.</li>
+<li><strong>Team Leadership</strong> Covers sprint planning, software engineering best practices, testing practices, deployment strategies, and generally how to run a team well.</li>
+<li><strong>People Management</strong> How do you manage people? I also often include hiring processes in here.</li>
+<li><strong>Team Management</strong> This covers managing teams (e.g. having managers reporting into them). It would also include things like budgeting, company or division policies, and longer term prioritization.</li>
+<li><strong>Communication</strong> How are they at communicating? Can they discuss technical topics with non-technical folks successfully?</li>
+<li><strong>Product Management</strong> How do you define software deliverables which meat business needs?</li>
+</ul>
+
+
+<p>In general, you ask more senior people items further down the list. You also ask less of the basics.
+Example: a Sr. Manager or Director likely knows how to code or at least did at some point.
+They should ideally be able to pass your coding question, but if they will not be required to code in this role, then it might be okay to pass them with a mediocre result if they&rsquo;re strong in other areas.
+For a mid-level software engineer, their coding is actually the most important component, so you should really focus on this and make sure they are strong in this area.</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center;"> Job Title </th>
+<th style="text-align:center;"> Prescreen </th>
+<th style="text-align:center;"> Coding </th>
+<th style="text-align:center;"> Architecture </th>
+<th style="text-align:center;"> Leadership </th>
+<th style="text-align:center;"> People Mgmt </th>
+<th style="text-align:center;"> Team Mgmt </th>
+<th style="text-align:center;"> Communication </th>
+<th style="text-align:center;"> Product Management </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">Jr. Software Engineer / College New Hire </td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">3</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center;">Software Engineer </td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center;">Sr. Software Engineer </td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">3</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center;">Team Lead</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">2</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">1</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center;">Dev Manager</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+</tr>
+<tr>
+<td style="text-align:center;">Director</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1</td>
+</tr>
+</tbody>
+</table>
+
+
+<p><br></p>
+
+<p>As you can see, I would spend much more time interviewing more senior people.
+I also think it&rsquo;s usually okay if someone &ldquo;fails&rdquo; one of their interviews.
+Unless they do spectacularly poorly, the other interviews should even out.
+Another line of reasoning here is that you want them to grow into the role.
+If they do amazing on all your interviews, then maybe they should be a level higher.
+This makes sense since you generally want to be more sure of them.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Interview Metrics]]></title>
+    <link href="http://softwaregravy.github.io/blog/2016/06/15/interview-metrics/"/>
+    <updated>2016-06-15T13:30:22-04:00</updated>
+    <id>http://softwaregravy.github.io/blog/2016/06/15/interview-metrics</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[What Does a CTO Do?]]></title>
